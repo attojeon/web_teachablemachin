@@ -14,4 +14,10 @@
 - 모바일브라우저에서 테스트해 보고 어울리는 UI로 꾸미기 
 - 모바일 버전을 내 주변에 알려서 사용해 보게 하기 
 
+<hr>
+## 이미지 참조  
+
+-  https://www.kaggle.com/competitions/dogs-vs-cats/overview
+
+
 
