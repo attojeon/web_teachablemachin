@@ -21,3 +21,30 @@
 
 
 
+# index.html VS index_adv.html
+* index는 기본 TM 버전
+* index_adv는 얼굴상의 가능성을 그래프로 표현하기 위한 버전
+  * style.css에서 그래프를 위한 css 추가 
+  * 화면 reload 할 경우 발생하는 캔버스 겹치는 버그 해결 등
+  ![버그화면](%EC%BA%94%EB%B2%84%EC%8A%A4%EA%B2%B9%EC%B9%98%EB%8A%94%EB%B2%84%EA%B7%B8%ED%99%94%EB%A9%B4.png)
+  * 동적으로 변하는 닮음상의 확률을 그래프로 표현하기 위한 css의 이해를 위해... '여우'의 그래프를 화면의 하단에 고정값으로 표시되게 하였음. 참조 바람. 
+
+  ```js
+  <div class="result-box">
+            <div id="label-container"></div>
+        </div>
+        <div class="result-box">
+            <div id="label-container-ex">
+                <div>
+                    <div class="animal-label d-flex align-items-center">
+                        <span class="label-title">여우</span></div>
+                    <div class='bar-container position-relative container'>
+                    <div class='fox-box'></div>
+                    <div class='d-flex justify-content-center align-items-center fox-bar' style='width: 65%'>
+                        <span class='d-block percent-text'>65%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+  ```
+
